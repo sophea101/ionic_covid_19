@@ -89,4 +89,7 @@ export class LoginPage implements OnInit {
     this.navCtrl.navigateRoot('/home-results');
   }
 
+  goToGraph(){
+    this.navCtrl.navigateRoot('/graph/chart');
+  }
 }
